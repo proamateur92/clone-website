@@ -9,7 +9,7 @@
 }
 
 .wrap__image {
-  background: url('../imgs/main.png') center/cover;
+  background: url('./main.png') center/cover;
   padding-bottom: 200px;
 }
 
