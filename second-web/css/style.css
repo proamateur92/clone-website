@@ -136,13 +136,13 @@ body {
 }
 
 .statistics__list:not(.statistics__list:last-of-type) {
-  padding-right: 15px;
   border-right: 2px solid var(--gray);
 }
 
 .statistics__list {
   flex: 1;
   margin-top: 55px;
+  padding-right: 15px;
   padding-left: 15px;
 }
 
@@ -169,7 +169,7 @@ body {
 }
 
 .about__describe {
-  font-size: medium;
+  font-size: var(--medium-font);
   margin-bottom: var(--section-bottom);
 }
 
@@ -221,6 +221,7 @@ body {
 
 .character__describe {
   font-size: var(--small-font);
+  line-height: 15px;
 }
 
 .character__btn {
@@ -241,7 +242,7 @@ body {
 
 .service {
   display: flex;
-  height: 430px;
+  height: 470px;
   flex-direction: column;
   padding-top: 40px;
   background-color: var(--white);
@@ -286,7 +287,7 @@ body {
 }
 
 .intro__title {
-  font-size: var(--large-font-font);
+  font-size: var(--medium-font);
   font-weight: bold;
 }
 
@@ -294,4 +295,82 @@ body {
   padding-top: 20px;
   font-size: var(--medium-font);
   line-height: 20px;
+}
+
+.contact {
+  color: var(--white);
+  background: url('../imgs/contact.png') center/cover no-repeat;
+  width: 100%;
+  height: 310px;
+  display: flex;
+}
+
+.contact-left {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-left__title {
+  font-size: var(--large-font);
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.contact-left__describe {
+  font-size: var(--medium-font);
+  margin-bottom: 17px;
+}
+
+.contact-left__more-btn {
+  width: 120px;
+  height: 35px;
+  background: none;
+  color: var(--white);
+  outline: 1px solid var(--white);
+  border-radius: 5px;
+  transition: all 300ms ease-in;
+}
+
+.contact-left__more-btn:hover {
+  background-color: #314656;
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+.footer {
+  width: 100%;
+  height: 150px;
+  color: var(--white);
+  display: flex;
+  background-color: #1f1f1f;
+}
+
+.footer__logo {
+  text-align: center;
+  font-size: 35px;
+  line-height: 150px;
+  width: 400px;
+}
+
+.footer__address {
+  margin: auto 0;
+  line-height: 25px;
+}
+
+.fa-water {
+  position: relative;
+}
+
+.fa-octopus-deploy {
+  position: absolute;
+  margin-top: 65px;
+  margin-left: -48px;
+}
+
+.logo__link:hover,
+.logo__link > i:hover {
+  color: #525252;
 }
