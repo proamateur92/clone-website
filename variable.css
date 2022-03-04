@@ -1,0 +1,15 @@
+:root {
+  /* margin */
+  --title-bottom: 10px;
+  --section-bottom: 40px;
+  /* fonts */
+  --large-font: 34px;
+  --medium-font: 14px;
+  --small-font: 12px;
+
+  /* colors */
+  --white: #ffffff;
+  --black: #000000;
+  --gray: #6d6d6d;
+  --gray-light: #f3f3f3;
+}
