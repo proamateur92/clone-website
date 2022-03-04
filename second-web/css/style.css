@@ -113,8 +113,9 @@ body {
 .statistics {
   display: inline;
   position: absolute;
-  padding: 50px 0;
-  margin: -65px 250px;
+  width: 800px;
+  height: 150px;
+  margin: -75px 250px;
   text-align: center;
   background-color: var(--white);
   border-radius: 5px;
@@ -134,9 +135,14 @@ body {
 }
 
 .statistics__list:not(.statistics__list:last-of-type) {
-  padding-right: 30px;
-  text-align: center;
+  padding-right: 15px;
   border-right: 2px solid var(--gray);
+}
+
+.statistics__list {
+  flex: 1;
+  margin-top: 55px;
+  padding-left: 15px;
 }
 
 .statistics__title {
